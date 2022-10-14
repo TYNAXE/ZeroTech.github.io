@@ -694,6 +694,7 @@ footer span a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .wrapper .button{
   display: inline-block;
@@ -765,4 +766,37 @@ footer span a:hover{
 }
 .wrapper .button:nth-child(5) span{
   color: #36393f;
+}
+
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+   .wrapper .button.span{
+        font-size: 60px;
+    }
+    
+    .wrapper .button a{
+        font-size: 20px;
+    }
+ 
+}
+
+
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+   .wrapper .button.icon{
+        font-size: 60px;
+        height:50px ;
+        
+    }
+    
+    .wrapper .button a{
+        font-size: 20px;
+    }
+ 
 }
